@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Rp name"
+git push origin main
+if branch on master -
+git branch -M main
