@@ -1,6 +1,6 @@
 public class thirdMax {
 
-    public int thirdMax(int[] nums) {
+    public int findThirdMax(int[] nums) {
 
         long max1 = Long.MIN_VALUE;
         long max2 = Long.MIN_VALUE;
@@ -43,6 +43,6 @@ public class thirdMax {
 
         int[] nums = {3, 2, 1};
 
-        System.out.println(obj.thirdMax(nums));
+        System.out.println(obj.findThirdMax(nums));
     }
 }

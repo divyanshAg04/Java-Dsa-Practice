@@ -1,4 +1,4 @@
-class Solution {
+class IslandPerimeterSolution {
 
     boolean[][] visited;
 
@@ -64,7 +64,7 @@ public class islandPerimeter {
             {1,1,0,0}
         };
 
-        Solution obj = new Solution();
+        IslandPerimeterSolution obj = new IslandPerimeterSolution();
 
         System.out.println(obj.islandPerimeter(grid));
     }

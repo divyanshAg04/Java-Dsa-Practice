@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class findContentChildren {
 
-    public static int findContentChildren(int[] g, int[] s) {
+    public static int countContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
         Arrays.sort(s);
 
@@ -24,6 +24,6 @@ public class findContentChildren {
         int[] g = {1, 2, 3};
         int[] s = {1, 1};
 
-        System.out.println(findContentChildren(g, s));
+        System.out.println(countContentChildren(g, s));
     }
 }

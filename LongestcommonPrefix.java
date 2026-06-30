@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+public class LongestcommonPrefix {
     public String longestCommonPrefix(String[] v) {
         StringBuilder ans = new StringBuilder();
 
@@ -33,7 +33,7 @@ class Solution {
             arr[i] = sc.nextLine();
         }
 
-        Solution sol = new Solution();
+        LongestcommonPrefix sol = new LongestcommonPrefix();
         String result = sol.longestCommonPrefix(arr);
 
         System.out.println("Longest Common Prefix: " + result);

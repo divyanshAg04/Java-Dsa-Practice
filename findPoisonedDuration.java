@@ -1,6 +1,6 @@
 public class findPoisonedDuration {
 
-    public int findPoisonedDuration(int[] timeSeries, int duration) {
+    public int calculatePoisonedDuration(int[] timeSeries, int duration) {
         int total = 0;
 
         for (int i = 0; i < timeSeries.length - 1; i++) {
@@ -22,7 +22,7 @@ public class findPoisonedDuration {
         int[] timeSeries = {1, 4};
         int duration = 2;
 
-        int result = solution.findPoisonedDuration(timeSeries, duration);
+        int result = solution.calculatePoisonedDuration(timeSeries, duration);
 
         System.out.println(result);
     }

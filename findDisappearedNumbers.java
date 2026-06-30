@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class FindDisappearedNumbersSolution {
 
     public List<Integer> findDisappearedNumbers(int[] nums) {
 
@@ -28,7 +28,7 @@ public class findDisappearedNumbers {
 
     public static void main(String[] args) {
 
-        Solution obj = new Solution();
+        FindDisappearedNumbersSolution obj = new FindDisappearedNumbersSolution();
 
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
 

@@ -1,7 +1,8 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
 
-class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
+public class intersection {
+    public int[] findIntersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<>();
         HashSet<Integer> result = new HashSet<>();
 
@@ -22,5 +23,13 @@ class Solution {
         }
 
         return ans;
+    }
+
+    public static void main(String[] args) {
+        intersection solver = new intersection();
+        int[] nums1 = {1, 2, 2, 1};
+        int[] nums2 = {2, 2};
+
+        System.out.println(Arrays.toString(solver.findIntersection(nums1, nums2)));
     }
 }

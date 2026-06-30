@@ -1,6 +1,6 @@
 public class findMaxConsecutiveOnes {
 
-    public int findMaxConsecutiveOnes(int[] nums) {
+    public int countMaxConsecutiveOnes(int[] nums) {
         int count = 0;
         int maxi = 0;
 
@@ -21,6 +21,6 @@ public class findMaxConsecutiveOnes {
 
         int[] nums = {1, 1, 0, 1, 1, 1};
 
-        System.out.println(obj.findMaxConsecutiveOnes(nums));
+        System.out.println(obj.countMaxConsecutiveOnes(nums));
     }
 }

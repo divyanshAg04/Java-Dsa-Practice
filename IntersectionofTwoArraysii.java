@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class IntersectionofTwoArraysii {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        IntersectionOfTwoArraysIISolution s = new IntersectionOfTwoArraysIISolution();
 
         int[] nums1 = {1, 2, 2, 1};
         int[] nums2 = {2, 2};
@@ -13,7 +13,7 @@ public class IntersectionofTwoArraysii {
     }
 }
 
-class Solution {
+class IntersectionOfTwoArraysIISolution {
     public int[] IntersectionofTwoArraysii(int[] nums1, int[] nums2) {
         int l1 = nums1.length;
         int l2 = nums2.length;
